@@ -2,10 +2,16 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Footer from '../Components/Footer'
 import Header from '../Components/Header'
+import Helmet from 'react-helmet'
 
 const Home = () => {
     return (
-        <div>
+        <>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Rishipaithy</title>
+                <link rel="canonical" href="https://rishipathy.com/" />
+            </Helmet>
             <Header/>
             <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-indicators">
@@ -39,19 +45,19 @@ const Home = () => {
                         <img src="./Assets/card-1.jpg" alt="" />
                         <h2 className='my-2'>Ayurveda</h2>
                         <p>Ayurveda has remained in the historic Indian roots since the past 5000 years. It emerged during the time of Vedic ages and is still in practice due to its immense effectiveness.</p>
-                        <Link to="/ayurveda"><button type="button" class="btn btn-outline-secondary">Read more</button></Link>
+                        <Link to="/ayurveda"><button type="button" className="btn btn-outline-secondary">Read more</button></Link>
                     </div>
                     <div className="col-lg-4 text-center">
                         <img src="./Assets/card-3.jpg" alt="" />
                         <h2 className='my-2'>Yoga</h2>
                         <p>Yoga is not just a practice but a lifestyle choice. The art of implementing yoga in your daily lives has some real benefits. It provides peace and tranquility to your mind, soul, and body.</p>
-                        <Link to="/yoga"><button type="button" class="btn btn-outline-secondary">Read more</button></Link>
+                        <Link to="/yoga"><button type="button" className="btn btn-outline-secondary">Read more</button></Link>
                     </div>
                     <div className="col-lg-4 text-center">
                     <img src="./Assets/card-2.jpg" alt="" />
                         <h2 className='my-2'>Treatments</h2>
                         <p>Rishipathy is all set to guide you towards the ayurvedic remedies. With the help of experts in the field of Ayurveda and Yoga, recover and rejuvenate yourself.</p>
-                        <Link to="/treatments"><button type="button" class="btn btn-outline-secondary">Read more</button></Link>
+                        <Link to="/treatments"><button type="button" className="btn btn-outline-secondary">Read more</button></Link>
                     </div>
                 </div>
             </div>
@@ -78,7 +84,7 @@ const Home = () => {
                 </div>
             </div>
             <Footer/>
-        </div>
+        </>
     )
 }
 
