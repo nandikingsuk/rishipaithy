@@ -11,6 +11,7 @@ const Footer = () => {
                     <div className="card border-0 bg-light">
                     <div className="card-body">
                         <h5 className="card-title mb-3">IMPORTANT LINKS</h5>
+                        <p><Link className="card-text text-decoration-none text-dark" to="/about">About</Link></p>
                         <p><Link className="card-text text-decoration-none text-dark" to="/yoga">Yoga</Link></p>
                         <p><Link className="card-text text-decoration-none text-dark" to="/ayurveda">Ayurveda</Link></p>
                         <p><Link className="card-text text-decoration-none text-dark" to="/treatments">Treatments</Link></p>
@@ -22,6 +23,8 @@ const Footer = () => {
                     <div className="card border-0 bg-light">
                     <div className="card-body">
                         <h5 className="card-title mb-3">USEFUL LINKS</h5>
+                        <p><a className="card-text text-decoration-none text-dark" href="/">Sign-in</a></p>
+                        <p><a className="card-text text-decoration-none text-dark" href="/">Stores</a></p>
                         <p><Link className="card-text text-decoration-none text-dark" to="/terms-and-conditions">Terms &amp; Conditions</Link></p>
                         <p><Link className="card-text text-decoration-none text-dark" to="/privacy-policy">Privacy Policy</Link></p>
                         <p><Link className="card-text text-decoration-none text-dark" to="/terms-of-use">Terms of use</Link></p>
