@@ -8,6 +8,8 @@ import Rnd from './Screens/Rnd';
 import Termsnconditions from './Screens/Termsnconditions';
 import Privacypolicy from './Screens/Privacypolicy';
 import Termsofuse from './Screens/Termsofuse';
+import Faq from './Screens/Faq';
+import Sitemap from './Screens/Sitemap';
 
 const App = () => {
   return (
@@ -21,6 +23,8 @@ const App = () => {
             <Route exact path="/terms-and-conditions" element={ <Termsnconditions /> } />
             <Route exact path="/privacy-policy" element={ <Privacypolicy /> } />
             <Route exact path="/terms-of-use" element={ <Termsofuse /> } />
+            <Route exact path="/faq" element={ <Faq /> } />
+            <Route exact path="/sitemap" element={ <Sitemap /> } />
         </Routes>
     </Router>
   )
