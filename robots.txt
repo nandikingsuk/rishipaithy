@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://rishipaithy.com/sitemap.xml
