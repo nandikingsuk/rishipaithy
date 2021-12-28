@@ -15,7 +15,7 @@ const Header = () => {
                         <li><Link to="/about" className="nav-link px-2 link-dark">About</Link></li>
                         <li><Link to="/ayurveda" className="nav-link px-2 link-dark">Ayurveda</Link></li>
                         <li><Link to="/yoga" className="nav-link px-2 link-dark">Yoga</Link></li>
-                        <li><Link to="/treatment" className="nav-link px-2 link-dark">Treatments</Link></li>
+                        <li><Link to="/treatments" className="nav-link px-2 link-dark">Treatments</Link></li>
                     </ul>
                     <div className="col-md-3 text-end">
                         <a href="tel:+919520121000"><button type="button" className="btn btn-primary"><span className="material-icons align-bottom">local_phone</span> +91 95201 21000</button></a>
