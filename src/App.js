@@ -10,6 +10,8 @@ import Privacypolicy from './Screens/Privacypolicy';
 import Termsofuse from './Screens/Termsofuse';
 import Faq from './Screens/Faq';
 import Sitemap from './Screens/Sitemap';
+import Treatments from './Screens/Treatments';
+import Notfound from './Screens/Notfound';
 
 const App = () => {
   return (
@@ -25,6 +27,8 @@ const App = () => {
             <Route exact path="/terms-of-use" element={ <Termsofuse /> } />
             <Route exact path="/faq" element={ <Faq /> } />
             <Route exact path="/sitemap" element={ <Sitemap /> } />
+            <Route exact path="/treatments" element={ <Treatments /> } />
+            <Route path="*" element={ <Notfound /> } />
         </Routes>
     </Router>
   )
