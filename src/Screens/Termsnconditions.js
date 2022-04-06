@@ -34,6 +34,7 @@ const Termsnconditions = () => {
                 <p className="col-md-12 fs-5">The cost of furniture &amp; interior will be borne by the owner.</p>
                 <p className="col-md-12 fs-5">A (non-interest) refundable security of Rs.51,000 would be required.</p>
                 <p className="col-md-12 fs-5">A consultancy fee of Rs.100/- will be charged for each patient. (part of the fee goes to Kalpamrit Foundation for charity work)</p>
+                <p className="col-md-12 fs-5">Wellness Point’s owner will pay a traveling allowance to the doctor at the rate of Rs.5 per kilometer for visit.</p>
             </div>
          </div>
         <Footer/>
